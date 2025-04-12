@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tim Schmolka</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5efe6;
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #1f1f1f;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: 600;
+      margin-bottom: 0.2em;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.2em;
+      font-weight: 300;
+      color: #6f6f6f;
+      margin-bottom: 2em;
+      text-align: center;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1.5em;
+    }
+
+    .buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.1);
+    }
+
+    .buttons img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2em;
+      }
+      p {
+        font-size: 1em;
+      }
+      .buttons {
+        gap: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Tim Schmolka</h1>
+  <p>Software Engineering Leader</p>
+  <div class="buttons">
+    <a href="https://www.linkedin.com/in/tim-schmolka" target="_blank" title="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/timschmolka" target="_blank" title="GitHub">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+    </a>
+    <a href="https://timschmolka.substack.com" target="_blank" title="Substack">
+      <img src="https://substackcdn.com/image/fetch/w_500,c_limit,f_auto,q_auto:good,fl_progressive:steep/https://substack.com/img/substack.png" alt="Substack" style="border-radius: 8px;" />
+    </a>
+  </div>
+</body>
+</html>
